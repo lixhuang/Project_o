@@ -1,5 +1,9 @@
 #![feature(lang_items)]
+#![feature(unique)]
+#![feature(const_fn)]
 #![no_std]
+
+mod vga_buffer;
 
 extern crate rlibc;
 
